@@ -1,0 +1,44 @@
+// 语言切换器样式
+.menu {
+  .item {
+    position: relative;
+    
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: var(--grey-9);
+      border-radius: 5px;
+      padding: 10px 0;
+      min-width: 120px;
+      z-index: 100;
+      
+      &.active {
+        display: block;
+      }
+      
+      li {
+        padding: 5px 15px;
+        
+        a {
+          color: var(--text-color);
+          display: block;
+          
+          &:hover {
+            color: var(--primary-color);
+          }
+        }
+      }
+    }
+    
+    #lang-switch {
+      display: flex;
+      align-items: center;
+      
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+} 

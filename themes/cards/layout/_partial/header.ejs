@@ -1,0 +1,13 @@
+<div class="navbar-header">
+    <div class="navbar-title"><%= site_title() %></div>
+</div>
+
+<div class="navbar-nav">
+    <% theme.menu.forEach(function (value, key) { %>
+        <% if (key !== 'language') { %>
+        <div class="item">
+            <a href="<%= url_for(value) %>"><i class="ic i-<%= key %>"></i><span><%= __(key) %></span></a>
+        </div>
+        <% } %>
+    <% }); %>
+</div> 

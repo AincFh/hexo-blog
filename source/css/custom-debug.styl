@@ -1,0 +1,36 @@
+// 调试样式 - 语言切换器
+.menu .item.langswitcher {
+  background-color: red !important; 
+  display: block !important;
+  
+  > a {
+    color: white !important;
+    font-weight: bold !important;
+    padding: 5px 10px !important;
+  }
+  
+  .submenu {
+    display: block !important;
+    background-color: blue !important;
+    
+    li a {
+      color: yellow !important;
+    }
+  }
+}
+
+nav#nav .menu {
+  display: flex !important;
+}
+
+// 调试信息
+body::before {
+  content: "语言切换器调试模式";
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: red;
+  color: white;
+  padding: 5px;
+  z-index: 9999;
+} 

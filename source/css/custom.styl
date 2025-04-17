@@ -1,0 +1,40 @@
+// 语言切换器相关样式
+.right {
+  .item.lang {
+    i {
+      transition: color 0.2s ease;
+    }
+    
+    a:hover i {
+      color: var(--primary-color);
+    }
+  }
+}
+
+// 禁用动态添加的语言切换器
+.language-select {
+  display: none !important;
+}
+
+// 禁用调试信息
+.language-debug {
+  display: none !important;
+}
+
+// 禁用MiniValine
+.vcontent .vwrap,
+.vcount {
+  display: none !important;
+}
+
+// 优化图标加载，使用本地字体优先，避免加载延迟
+@font-face {
+  font-family: 'ic';
+  src: url('/fonts/iconfont.woff2') format('woff2');
+  font-display: swap;
+}
+
+// 备用字体加载时优化体验
+body {
+  font-display: swap;
+} 

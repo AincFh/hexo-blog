@@ -1,0 +1,97 @@
+alternate: 二次元博客
+
+# Assets
+statics: / # 改回本地加载
+
+# 开启语言切换器 - 确保这个设置正确被读取
+language_switcher: true
+
+open_graph:
+  #twitter_id:
+  #google_plus:
+  #fb_admins:
+  #fb_app_id:
+
+menu:
+  home: / || home
+  posts:
+    default: / || feather
+    archives: /archives/ || list-alt
+    categories: /categories/ || th
+    tags: /tags/ || tags
+  about: /about/ || user
+  friends: /friends/ || heart
+
+# Social Links
+# Usage: `Key: permalink || icon || color`
+# Key is the link label showing to end users.
+# Value before `||` delimiter is the target permalink,
+# secend value is the name of Font icon.
+social:
+  github: https://github.com/ || github || "#191717"
+  #google: https://plus.google.com/yourname || google
+  #twitter: https://twitter.com/ || twitter || "#00aff0"
+  #zhihu: https://www.zhihu.com/people/ || zhihu || "#1e88e5"
+  #music: https://music.163.com/ || cloud-music || "#e60026"
+  #weibo: https://weibo.com/ || weibo || "#ea716e"
+  #about: https://about.me/ || address-card || "#3b5998"
+  #email: mailto:yourname@mail.com || envelope || "#55acd5"
+  #facebook: https://www.facebook.com/yourname || facebook
+  #stackoverflow: https://stackoverflow.com/yourname || stack-overflow
+  #youtube: https://youtube.com/yourname || youtube
+  #instagram: https://instagram.com/yourname || instagram
+  #skype: skype:yourname?call|chat || skype
+  #douban: https://www.douban.com/people/yourname/ || douban
+
+footer:
+  # Specify the date when the site was setup. If not defined, current year will be used.
+  since: 2025
+  count: true
+
+post:
+  count: true
+
+
+# ---------------------------------------------------------------
+# Third Party Plugins & Services Settings
+# ---------------------------------------------------------------
+
+# Comments
+# Valine
+# For more information: https://valine.js.org, https://github.com/xCss/Valine
+valine:
+  enable: false
+  appId: null
+  appKey: null
+
+# bgm
+audio:
+  - title: 二次元音乐
+    list:
+      - https://music.163.com/playlist?id=2943811283
+      - https://music.163.com/playlist?id=2297706586
+  - title: 动漫歌曲
+    list:
+      - https://music.163.com/playlist?id=2031842656
+
+# Dependencies: https://github.com/amehime/hexo-renderer-multi-markdown-it
+pangu: true
+
+# ---------------------------------------------------------------
+# analytics & SEO Settings
+# ---------------------------------------------------------------
+
+
+# Disable Baidu transformation on mobile devices.
+disable_baidu_transformation: true
+
+# Automatically add external URL with Base64 encrypt & decrypt.
+exturl: true
+
+# 自定义样式和脚本
+custom_css: true
+custom_js: true
+
+# project of https://www.iconfont.cn/
+# //at.alicdn.com/t/font_1832207_c8i9n1ulxlt.css => 1832207_c8i9n1ulxlt
+iconfont: "1832207_c8i9n1ulxlt"

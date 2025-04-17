@@ -1,0 +1,25 @@
+- group: 推荐博客
+  icon: i-link
+  items:
+    - name: 樱花庄的白猫
+      url: https://2heng.xin/
+      avatar: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
+      desc: 这是一个美丽的二次元博客
+
+    - name: DIYgod's Blog
+      url: https://diygod.me/
+      avatar: https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/DIYgod-avatar.webp
+      desc: 人气很高的技术宅
+
+- group: 二次元网站
+  icon: i-film
+  items:
+    - name: Bangumi
+      url: https://bgm.tv/
+      avatar: https://bgm.tv/img/favicon.ico
+      desc: 专注于ACG的社区
+
+    - name: AcFun
+      url: https://www.acfun.cn/
+      avatar: https://cdn.aixifan.com/ico/favicon.ico
+      desc: 认真你就输了 
